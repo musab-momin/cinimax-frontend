@@ -1,9 +1,11 @@
 "use client";
 
+import SignupForm from "@components/SignupForm";
+
 export default function Page() {
   return (
-    <section>
-      <form action=""></form>
+    <section className="h-full px-2rem">
+      <SignupForm />
     </section>
   );
 }

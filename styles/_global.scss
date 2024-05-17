@@ -33,6 +33,11 @@ a {
   color: $font-clr;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
 .container {
   max-width: 1160px;
   margin: auto;
@@ -40,6 +45,22 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+.h-half {
+  height: 50%;
+}
+
+.grid-center-items {
+  display: grid;
+  place-items: center;
 }
 
 .flex-bx {
@@ -70,6 +91,31 @@ a {
 }
 .gap3 {
   gap: 2rem;
+}
+
+
+.frm-grp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inp {
+  width: 100%;
+  height: 32px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid $gray-200;
+  transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  padding: 0.75rem;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $blue-100;
+  }
+}
+.lbl {
+  font-size: 0.875rem;
 }
 
 .p-1rem {
