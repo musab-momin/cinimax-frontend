@@ -24,6 +24,10 @@ a {
   color: $font-clr;
 }
 
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
 
 .flex-bx {
   display: flex;
