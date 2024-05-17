@@ -1,0 +1,35 @@
+@import "@styles/_colors.scss";
+@import "@styles/_breakpoints.scss";
+
+.main {
+  height: 80%;
+  display: grid;
+  place-content: center;
+
+  & > section {
+    padding: 1rem;
+  }
+}
+
+.tag {
+  font-size: 48px;
+  font-weight: 500;
+
+  @include md {
+    font-size: 24px;
+  }
+}
+
+.startedBtn {
+  padding: 0.65rem;
+  background: $font-clr;
+  color: $white-clr;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}

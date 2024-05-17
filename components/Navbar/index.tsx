@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <header className={classes.header}>
       <nav className="container flex-bx align-center justify-between">
-        <h2 className={classes.logo}>Cinimax</h2>
+        <Link href={"/"}>
+          <h2 className={classes.logo}>Cinimax</h2>
+        </Link>
         <ul className="flex-bx gap2">
           <li>
             <Link href={"/login"}>Login</Link>
