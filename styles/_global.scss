@@ -1,0 +1,56 @@
+@import "@styles/_colors.scss";
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $font-clr;
+}
+
+
+.flex-bx {
+  display: flex;
+}
+
+.flex-bx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap1 {
+  gap: 0.75rem;
+}
+.gap2 {
+  gap: 1rem;
+}
+.gap3 {
+  gap: 2rem;
+}
